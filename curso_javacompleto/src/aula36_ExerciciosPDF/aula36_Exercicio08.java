@@ -19,7 +19,7 @@ public class aula36_Exercicio08 {
 
 		//Correção: https://github.com/acenelio/nivelamento-java/blob/master/src/uri1041.java
 		
-		//Commitado no GitHub
+		//Commitado no Git
 		
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
