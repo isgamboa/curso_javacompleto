@@ -1,13 +1,7 @@
-/**
- * 
- */
 package aula48_ExerciciosPDF;
 
 import java.util.Scanner;
 
-/**
- * 
- */
 public class aula48_Exercicio02 {
 	public static void main(String[] args) {
 
@@ -30,40 +24,22 @@ public class aula48_Exercicio02 {
 			
 			if (xValue < 0 && yValue < 0) {
 				System.out.println("As coodernadas pertencem ao quadrante Q3 do plano cartesiano.");
-				
-				System.out.println("Por favor, informe a posição do ponto no eixo X:");
-				xValue = sc.nextDouble();
-
-				System.out.println("Por favor, informe a posição do ponto no eixo Y:");
-				yValue = sc.nextDouble();
 			}
 			else if (xValue < 0 && yValue > 0) {
 				System.out.println("As coodernadas pertencem ao quadrante Q2 do plano cartesiano.");
-				
-				System.out.println("Por favor, informe a posição do ponto no eixo X:");
-				xValue = sc.nextDouble();
-
-				System.out.println("Por favor, informe a posição do ponto no eixo Y:");
-				yValue = sc.nextDouble();
 			}
 			else if (xValue > 0 && yValue < 0) {
 				System.out.println("As coodernadas pertencem ao quadrante Q4 do plano cartesiano.");
-				
-				System.out.println("Por favor, informe a posição do ponto no eixo X:");
-				xValue = sc.nextDouble();
-
-				System.out.println("Por favor, informe a posição do ponto no eixo Y:");
-				yValue = sc.nextDouble();
 			}
 			else {
 				System.out.println("As coodernadas pertencem ao quadrante Q1 do plano cartesiano.");
-				
-				System.out.println("Por favor, informe a posição do ponto no eixo X:");
-				xValue = sc.nextDouble();
-
-				System.out.println("Por favor, informe a posição do ponto no eixo Y:");
-				yValue = sc.nextDouble();
 			}
+			
+			System.out.println("Por favor, informe a posição do ponto no eixo X:");
+			xValue = sc.nextDouble();
+
+			System.out.println("Por favor, informe a posição do ponto no eixo Y:");
+			yValue = sc.nextDouble();
 		}
 		
 		sc.close();
