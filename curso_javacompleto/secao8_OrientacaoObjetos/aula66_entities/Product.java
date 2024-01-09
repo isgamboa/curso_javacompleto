@@ -2,9 +2,9 @@ package aula66_entities;
 
 public class Product {
 	
-	public String name;
-	public Double price;
-	public int quantity;
+	private String name;
+	private Double price;
+	private int quantity;
 	
 	public Product() {
 	}
