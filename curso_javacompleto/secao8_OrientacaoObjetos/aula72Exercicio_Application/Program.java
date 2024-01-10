@@ -21,6 +21,6 @@ public class Program {
 		
 		System.out.printf("Amount to be paid in Reais (R$) = %.2f", Utilities.currencyConverter());
 	
-
+		sc.close();
 	}
 }
