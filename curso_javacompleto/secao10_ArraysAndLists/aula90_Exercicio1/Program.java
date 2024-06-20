@@ -12,9 +12,9 @@ public class Program {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int totalNumbers = sc.nextInt();
-		
 		System.out.println("Quantos números você vai digitar? ");
+		
+		int totalNumbers = sc.nextInt();
 		
 		int vector[] = new int[totalNumbers];
 		
