@@ -6,6 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="secao11_data-hora"/>
 	<classpathentry kind="src" path="secao8_OrientacaoObjetos"/>
 	<classpathentry kind="src" path="secao10_ArraysAndLists"/>
 	<classpathentry kind="output" path="bin"/>
